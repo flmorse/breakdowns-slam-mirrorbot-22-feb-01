@@ -4,5 +4,5 @@ apt-get update -y
 apt-get install -y git
 git clone https://github.com/breakdowns/slam-mirrorbot.git slambotjd
 cd slambotjd
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 python3 -m bot
